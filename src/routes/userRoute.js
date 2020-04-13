@@ -49,21 +49,6 @@ exports.assignRoutes = app => {
 	);
 
 	/**
-	 * Delete User
-	 */
-	// app.delete(
-	// 	requestUtil.getUrlPrefix('user/:id'),
-	// 	[
-	// 		param('id')
-	// 			.exists()
-	//			.custom((value) => value.match(/^[0-9a-fA-F]{24}$/) != null)
-	// 			.withMessage('Id is required')
-	// 	],
-	// 	validator.validate,
-	// 	userController.deleteUser
-	// );
-
-	/**
 	 * Create User
 	 */
 	app.post(
