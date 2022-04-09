@@ -15,7 +15,7 @@
 		"express-validator": "^6.1.1",
 		"http-status": "^1.4.2",
 		"jsonwebtoken": "^8.4.0",
-		"moment": "^2.24.0",
+		"moment": "^2.29.2",
 		"mongo-sanitize": "^1.0.1",
 		"mongoose": "^5.0.7",
 		"node-cache": "^4.2.0",
